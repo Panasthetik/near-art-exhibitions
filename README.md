@@ -1,13 +1,13 @@
 # Near Art Exhibitions
 Art exhibitions and artist portfolio site on Near Protocol with Rust, WASM, Parcel and React. Based on the 'Near Starter Template' also posted on this GitHub and documented in my Medium articles.    
       
-Can be expanded / adapted to suit a variety of needs in Fine Art or Photography for those looking to build on Near Protocol. Permissions and other functions should be added for production deployment. Also possible would be a native token with DAO functionality for the curation and voting, but it's beyind the scope of this template.
+Can be expanded / adapted to suit a variety of needs in Fine Art or Photography for those looking to build on Near Protocol. Permissions and other functions should be added for production deployment. Also possible would be a native token with DAO functionality for the curation and voting, but it's beyond the scope of this template.
 
 # Features (high-level):
 1) User can add an exhibition with title, description and 5 image links.
 2) User can add an artist to an exhibition with portfolio (5 image links).
 3) Users can 'Endorse' artists and 'Vote' on exhibitions.
-4) News feed on Home page updates when an Artist or Exhibition is added (UNIX timestamp, date needs to be re-formatted in Rust to be displayable in React).
+4) News feed on Home page updates when an Artist or Exhibition is added (UNIX timestamp, date needs to be re-formatted in Rust to be properly displayable in React).
 5) User can delete an exhibition (Rust indexing doesn't update (-1 value) ID in the vector - to fix).
 6) Artists page lists all artists by exhibition (by ID).
 
