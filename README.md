@@ -11,6 +11,9 @@ Can be expanded / adapted to suit a variety of needs in Fine Art or Photography 
 5) User can delete an exhibition (Rust indexing doesn't update (-1 value) ID in the vector - to fix).
 6) Artists page lists all artists by exhibition (by ID).
 
+# Testing
+You can run "cargo build" in the 'contract' folder, and it will compile a debug target in regular Rust. You can then run "bash ./test.sh" in the 'contract' folder and it will run the 5 unit tests.
+
 
 # In Progress (to-do's)
 1) Redo the exhibitions ID to be a unique number.
