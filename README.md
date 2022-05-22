@@ -1,5 +1,5 @@
 # near-art-exhibitions
-Art exhibitions and artist portfolio site on Near Protocol with Rust, WASM, Parcel and React. Edited.
+Art exhibitions and artist portfolio site on Near Protocol with Rust, WASM, Parcel and React.
 
 # Features (high-level):
 1) User can add an exhibition with title, description and 5 image links
